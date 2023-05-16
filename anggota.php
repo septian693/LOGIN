@@ -6,3 +6,4 @@ if(!isset($_SESSION['session_username'])){
 }
 print_r($_SESSION);
 print_r($_COOKIE);
+header('location: ../ToDoList/index.php');
